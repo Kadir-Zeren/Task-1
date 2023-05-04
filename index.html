@@ -24,12 +24,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header><h1>KADIR ZEREN</h1></header>
     <nav id="nav-1">
-      <a href="#">Home</a>
+      <a href="#" >Home</a>
       <a href="#">About</a>
       <a href="#">Projects</a>
       <a href="#">Contact</a>
@@ -54,17 +60,24 @@
     </main>
     <footer>
       <h2>Contact Me</h2>
-      <nav id="nav-2">
-        <i class="fa-brands fa-github"></i> <a href="#">Github</a>
-        <i class="fa-brands fa-instagram"></i><a href="#">Instagram</a>
-        <i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a>
-        <i class="fa-brands fa-linkedin"></i> <a href="#">Linkedin</a>
-      </nav>
+    
       <h4>Send Message</h4>
       <form action="">
-        <input type="text" name="name" id="name" placeholder="Username" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Username"
+          required
+        />
         <br />
-        <input type="email" name="email" id="email" placeholder="Email" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
         <br />
         <textarea
           name=""
@@ -72,8 +85,13 @@
           cols="30"
           rows="10"
           placeholder="Your message"
-        ></textarea>
+        ></textarea
+        ><br />
+        <button type="submit" id="send">Send</button>
       </form>
     </footer>
+    <div>
+        
+    </div>
   </body>
 </html>

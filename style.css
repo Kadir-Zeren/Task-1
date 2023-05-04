@@ -63,7 +63,7 @@ h3 {
   border-radius: 5px;
 }
 footer {
-  height: 900px;
+  height: 500px;
 }
 h2 {
   color: white;
@@ -72,24 +72,9 @@ h2 {
   font-size: 32px;
   margin-top: 35px;
 }
-#nav-2 {
-  text-align: center;
-  margin-top: 30px;
-  color: #d2b48c;
-  font-size: 20px;
-}
-#nav-2 a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #d2b48c;
-  margin-right: 20px;
-}
-#nav-2:hover {
-  color: #ff4500;
-}
-#nav-2 a:hover {
-  color: #ff4500;
-}
+
+
+
 h4 {
   text-align: center;
   color: white;
@@ -107,6 +92,7 @@ form {
   background-color: #131e25;
   text-align: center;
   font-size: 18px;
+  border-radius: 5px;
 }
 #email {
   margin-top: 10px;
@@ -117,6 +103,7 @@ form {
   background-color: #131e25;
   text-align: center;
   font-size: 18px;
+  border-radius: 5px;
 }
 #text {
   margin-top: 10px;
@@ -127,5 +114,25 @@ form {
   background-color: #131e25;
   text-align: center;
   font-size: 18px;
-  
+  height: 150px;
+  border-radius: 5px;
+}
+#send {
+  margin-top: 10px;
+  padding: 13px;
+  width: 470px;
+  height: 52px;
+  border: 2px solid #d2b48c;
+  background-color: #d2b48c;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  font-family: "Montserrat", arial, Helvetica;
+  letter-spacing: 5px;
+}
+#send:hover {
+  color: #ff4500;
+  cursor: pointer;
+    font-size: 20px;
 }
