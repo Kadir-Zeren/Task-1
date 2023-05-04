@@ -84,3 +84,48 @@ h2 {
   color: #d2b48c;
   margin-right: 20px;
 }
+#nav-2:hover {
+  color: #ff4500;
+}
+#nav-2 a:hover {
+  color: #ff4500;
+}
+h4 {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+form {
+  text-align: center;
+}
+#name {
+  padding: 13px;
+  width: 470px;
+  height: 52px;
+  border: 2px solid #d2b48c;
+  background-color: #131e25;
+  text-align: center;
+  font-size: 18px;
+}
+#email {
+  margin-top: 10px;
+  padding: 13px;
+  width: 470px;
+  height: 52px;
+  border: 2px solid #d2b48c;
+  background-color: #131e25;
+  text-align: center;
+  font-size: 18px;
+}
+#text {
+  margin-top: 10px;
+  padding: 13px;
+  width: 470px;
+  height: 52px;
+  border: 2px solid #d2b48c;
+  background-color: #131e25;
+  text-align: center;
+  font-size: 18px;
+  
+}
