@@ -12,8 +12,6 @@ h1 {
   font-family: "Bungee Shade", cursive;
   color: white;
   font-size: 48px;
-  font-weight: 700;
-  /* margin-top: 30px; */
   cursor: pointer;
 }
 #nav-1 {
@@ -62,9 +60,6 @@ h3 {
   height: 300px;
   border-radius: 5px;
 }
-footer {
-  height: 500px;
-}
 h2 {
   color: white;
   text-decoration: underline;
@@ -72,8 +67,24 @@ h2 {
   font-size: 32px;
   margin-top: 35px;
 }
-
-
+.nav-2 {
+  text-align: center;
+}
+.nav-2 a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #d2b48c;
+  font-size: 20px;
+  width: 100px;
+}
+.nav-2 a:hover {
+  color: #ff4500;
+}
+.nav-2 .fa-brands {
+  margin-right: 2px;
+}
 
 h4 {
   text-align: center;
@@ -134,5 +145,8 @@ form {
 #send:hover {
   color: #ff4500;
   cursor: pointer;
-    font-size: 20px;
+  font-size: 20px;
+}
+footer{
+    height: 650px;
 }
