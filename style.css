@@ -60,6 +60,9 @@ h3 {
   height: 300px;
   border-radius: 5px;
 }
+.art:hover{
+  opacity: 0.5;
+}
 h2 {
   color: white;
   text-decoration: underline;
@@ -120,6 +123,7 @@ form {
 }
 #text {
   margin-top: 10px;
+  resize: none;
   padding: 13px;
   width: 470px;
   height: 52px;
